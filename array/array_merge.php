@@ -7,6 +7,6 @@ print_r($result1);
 
 
 $user1 = ["name" => "John", "age" => 22];
-$user2 = ["name" => "Bob", "citi" => "New York"];
+$user2 = ["name" => "Bob", "city" => "New York"];
 $result2 = array_merge($user1, $user2);
 print_r($result2);
